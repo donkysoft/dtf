@@ -1,0 +1,16 @@
+*~
+*.bak
+Thumbs.db
+desktop.ini
+.DS_Store
+.buildpath
+.project
+.settings
+.idea
+nbproject/
+*.tmproj
+*.sublime-project
+*.sublime-workspace
+*.pyc
+._*
+
