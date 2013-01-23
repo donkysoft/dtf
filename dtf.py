@@ -25,7 +25,7 @@ def run(mode):
             flag = 0
             for pattern in patterns:
                 if pattern.find('*') != -1:
-                    attern = pattern.replace('.', '\.')
+                    pattern = pattern.replace('.', '\.')
                     pattern = pattern.replace('*', '(.*)')
                     result = re.match(pattern, file)
                     if result:
